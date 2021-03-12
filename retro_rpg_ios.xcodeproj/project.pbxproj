@@ -16,6 +16,8 @@
 		F434FB2325F6300700FB07F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F434FB2225F6300700FB07F6 /* Assets.xcassets */; };
 		F434FB2E25F6300700FB07F6 /* retro_rpg_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F434FB2D25F6300700FB07F6 /* retro_rpg_iosTests.swift */; };
 		F434FB3925F6300700FB07F6 /* retro_rpg_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F434FB3825F6300700FB07F6 /* retro_rpg_iosUITests.swift */; };
+		F4732BB025FAF75A0096B557 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4732BAF25FAF75A0096B557 /* Words.swift */; };
+		F4732BB525FAFF790096B557 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4732BB425FAFF790096B557 /* Place.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		F434FB3425F6300700FB07F6 /* retro_rpg_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = retro_rpg_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F434FB3825F6300700FB07F6 /* retro_rpg_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retro_rpg_iosUITests.swift; sourceTree = "<group>"; };
 		F434FB3A25F6300700FB07F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4732BAF25FAF75A0096B557 /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
+		F4732BB425FAFF790096B557 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				F434FB1F25F6300500FB07F6 /* Main.storyboard */,
 				F434FB2225F6300700FB07F6 /* Assets.xcassets */,
 				F434FB2425F6300700FB07F6 /* Info.plist */,
+				F4732BAF25FAF75A0096B557 /* Words.swift */,
+				F4732BB425FAFF790096B557 /* Place.swift */,
 			);
 			path = retro_rpg_ios;
 			sourceTree = "<group>";
@@ -263,8 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F434FB1C25F6300500FB07F6 /* GameScene.swift in Sources */,
+				F4732BB025FAF75A0096B557 /* Words.swift in Sources */,
 				F434FB1E25F6300500FB07F6 /* GameViewController.swift in Sources */,
 				F434FB1625F6300500FB07F6 /* AppDelegate.swift in Sources */,
+				F4732BB525FAFF790096B557 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
